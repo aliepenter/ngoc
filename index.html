@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <title>Swiper demo</title>
+    <title>Đỗ Hồng Ngọc</title>
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"
@@ -67,11 +67,13 @@
       }
 
     </style>
+    <link rel="stylesheet" href="style.css">
   </head>
 
   <body>
     <!-- Swiper -->
-
+    <div class='cursor animated infinite heartBeat delay-5s	slow'></div>
+    <div class='cursor animated infinite heartBeat delay-5s slow'></div>
     <div class="swiper mySwiper">
       <div class="swiper-wrapper">
         <div class="swiper-slide" style="background-image: url('https://res.cloudinary.com/dzktlojli/image/upload/v1668581432/z3885088396441_283ce19efa597b4dbf72e28dc137aa88_e6asxs.jpg'); background-size: contain; background-repeat: no-repeat;"></div>
@@ -81,6 +83,7 @@
     </div>
 
     <!-- Swiper JS -->
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
 
     <!-- Initialize Swiper -->
@@ -90,5 +93,6 @@
         grabCursor: true,
       });
     </script>
+    <script src="app.js"></script>
   </body>
 </html>
